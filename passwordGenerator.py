@@ -1,4 +1,4 @@
-import string 
+import string, random
 
 lower_alphabet_character = list(string.ascii_lowercase)
 upper_alphabet_character = list(string.ascii_uppercase)
@@ -18,3 +18,8 @@ while True:
     except:
         print("Password character must be only numbers")
         user_input = input("How many character you want for your password: ")
+
+random.shuffle(lower_alphabet_character)
+random.shuffle(upper_alphabet_character)
+random.shuffle(digit_character)
+random.shuffle(punctuation_character)
