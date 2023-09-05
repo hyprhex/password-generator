@@ -39,3 +39,7 @@ for i in range(first_half):
 for i in range(second_half):
     password.append(digit_character[i])
     password.append(punctuation_character[i])
+
+random.shuffle(password)
+
+print("".join(password[0:]))
