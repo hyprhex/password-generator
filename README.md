@@ -10,5 +10,5 @@ Create a Python script that generate a random strong password from 3 types of ch
 - [x] Store all characters in lists 
 - [x] Take number of characters from users 
 - [x] Check if the user number equal or great than 6 
-- [ ] Shuffle all lists 
-- [ ] Make sure password have 60% alphabets and 40% numbers and punctuations.
+- [x] Shuffle all lists 
+- [x] Make sure password have 60% alphabets and 40% numbers and punctuations.

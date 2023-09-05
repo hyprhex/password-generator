@@ -23,3 +23,19 @@ random.shuffle(lower_alphabet_character)
 random.shuffle(upper_alphabet_character)
 random.shuffle(digit_character)
 random.shuffle(punctuation_character)
+
+# 30% of the first half 
+first_half = round(user_input * (30/100))
+
+# 20% of the second half
+second_half = round(user_input * (20/100))
+
+password = []
+
+for i in range(first_half):
+    password.append(lower_alphabet_character[i])
+    password.append(upper_alphabet_character[i])
+
+for i in range(second_half):
+    password.append(digit_character[i])
+    password.append(punctuation_character[i])
